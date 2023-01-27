@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFCC;
+}
+
+:root {
+    --BGWhite-1: #FFFFCC;
+    --BGWhite-2: #FFFFFF;
+    --BGBrown: #A08040;
+    --BGBlack: #101418;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+.height-100 {
+    height: 100%;
+}
+
+.only-mobile {
+    visibility: hidden;
+}
+
+.only-large-screens {
+    visibility: visible;
+}
+
+@media screen and (max-width: 1080px) {
+    .only-mobile {
+        visibility: visible;
+    }
+
+
+    .only-large-screens {
+        visibility: hidden;
+    }
+}
