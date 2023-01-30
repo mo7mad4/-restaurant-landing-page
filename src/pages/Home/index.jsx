@@ -2,6 +2,7 @@ import React from 'react'
 import SpaceBg from '../../components/SpaceBg'
 import AboutUs from '../../sections/AboutUs'
 import Header from '../../sections/Header'
+import Kitchen from '../../sections/Kitchen'
 import Special from '../../sections/Special'
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <SpaceBg>
         <AboutUs />
         <Special />
+        <Kitchen />
       </SpaceBg>
     </div>
   )
