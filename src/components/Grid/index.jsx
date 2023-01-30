@@ -4,7 +4,7 @@ import GridContant from '../GridContant'
 import Button from '../Button'
 import './style.css'
 
-const Grid = ({ title, shortDesc, desc, img }) => {
+const Grid = ({ title, subTitle, desc, img }) => {
     return (
 
         <div className="grid">
@@ -13,7 +13,7 @@ const Grid = ({ title, shortDesc, desc, img }) => {
                     <div>
                         <GridContant
                             title={title}
-                            subTitle={shortDesc}
+                            subTitle={subTitle}
                         />
                         <p className="GridSectionDesc">{desc}</p>
                         <Button>Read More</Button>
