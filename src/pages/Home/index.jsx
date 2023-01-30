@@ -1,6 +1,7 @@
 import React from 'react'
 import SpaceBg from '../../components/SpaceBg'
 import AboutUs from '../../sections/AboutUs'
+import Discount from '../../sections/Discount'
 import Header from '../../sections/Header'
 import Kitchen from '../../sections/Kitchen'
 import Special from '../../sections/Special'
@@ -13,6 +14,7 @@ const Home = () => {
         <AboutUs />
         <Special />
         <Kitchen />
+        <Discount />
       </SpaceBg>
     </div>
   )
