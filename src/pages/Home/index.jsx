@@ -6,6 +6,7 @@ import Count from '../../sections/Count'
 import Discount from '../../sections/Discount'
 import Header from '../../sections/Header'
 import Kitchen from '../../sections/Kitchen'
+import Review from '../../sections/Reviews'
 import Special from '../../sections/Special'
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
         <Discount />
         <CookingIngredients />
         <Count />
+        <Review />
       </SpaceBg>
     </div>
   )
